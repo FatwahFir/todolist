@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 ThemeData darkMode = ThemeData(
@@ -12,19 +11,19 @@ ThemeData darkMode = ThemeData(
     inversePrimary: Colors.grey.shade300,
   ),
   useMaterial3: true,
-  textTheme: TextTheme(
+  textTheme: const TextTheme(
     bodySmall: TextStyle(
-      fontSize: 14.sp,
+      fontSize: 14,
     ),
     bodyMedium: TextStyle(
-      fontSize: 16.sp,
+      fontSize: 16,
     ),
     titleMedium: TextStyle(
-      fontSize: 17.sp,
+      fontSize: 17,
       fontWeight: FontWeight.bold,
     ),
     titleLarge: TextStyle(
-      fontSize: 20.sp,
+      fontSize: 20,
       fontWeight: FontWeight.bold,
     ),
   ),

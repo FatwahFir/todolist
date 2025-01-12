@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:todo_list/app/components/my_button.dart';
 import 'package:todo_list/app/components/my_textfield.dart';
@@ -46,10 +45,10 @@ class MyDialog {
   static void confirm({Function()? onConfirm}) {
     Get.defaultDialog(
       title: "Confirm",
-      content: Text(
+      content: const Text(
         'Are you sure?',
         style: TextStyle(
-          fontSize: 16.sp,
+          fontSize: 16,
         ),
       ),
       actions: [
