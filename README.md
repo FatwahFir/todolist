@@ -10,6 +10,12 @@ Welcome to the **Mobile Todo List App**, a lightweight and efficient application
 - **Delete Tasks and Todo Lists**: Remove unwanted tasks or entire lists.
 - **Filter Tasks**: Quickly find tasks based on specific criteria.
 
+## 📱 Download APK
+
+You can download the latest build of the App below:
+
+- [📥 Download APK](https://drive.google.com/file/d/1b4vPJz9lJr2DF4Th-A1Z3PhxZCVhSUlU/view?usp=sharing)
+
 ## 🎥 Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
